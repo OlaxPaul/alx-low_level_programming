@@ -1,12 +1,10 @@
 #include <stdio.h>
-
 /**
  * main - A program that prints the lowercase alphabet in reverse
  *
  * Description: To print lowercase alphabets in reverse
  *
  * Return: Always 0 (success)
- *
  */
 int main(void)
 {
