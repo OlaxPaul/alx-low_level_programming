@@ -54,4 +54,4 @@ C - Variables, if, else, while tasks
 
 
 
-102-print_comb5.c is a program that prints all possible combinations of two two-digit numbers
+102-print_comb5.c is a program that prints all possible combinations of two two-digit numbers.
