@@ -5,10 +5,11 @@
 /**
  * main - print if the number is positive, zero, or negative
  *
- * Description: Using the main function
- * this program prints "Programming is positive, zero, or negative"
- * Return: 0
+ * Description: "Assign random number to variable n each time it is executed."
+ *
+ * Return: Always 0 (success)
  */
+
 int main(void)
 {
 	int n;
