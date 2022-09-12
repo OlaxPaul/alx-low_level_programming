@@ -6,6 +6,7 @@
  * Description: To print lowercase alphabets in reverse 
  *
  * Return: Always 0 (success)
+ *
  */
 int main(void)
 {
@@ -13,8 +14,11 @@ int main(void)
 
 	for (ch = 'z'; ch >= 'a'; ch--)
 	{
+
 		putchar(ch);
+
 	}
+
 	putchar('\n');
 
 	return (0);
