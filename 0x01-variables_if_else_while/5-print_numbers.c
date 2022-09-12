@@ -1,9 +1,10 @@
 #include <stdio.h>
 
 /**
- * main - A program that prints all single digit numbers of base 10
+ * main - Print if the number is positive, zero, or negative
  *
- * Description: To print single digits of base 10 starting from 0
+ * Description: Using the main function
+ * this program prints "Programming is positive, zero, or negative"
  *
  * Return: Always 0 (success)
  */
@@ -15,7 +16,7 @@ int main(void)
 	{
 		printf("%d", n);
 	}
-	putchar("\n");
+	print("\n");
 
 	return (0);
 }
