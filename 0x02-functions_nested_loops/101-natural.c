@@ -4,7 +4,7 @@
 /**
  * main - entry point for the program
  *
- * Description: Program prints the sum of the 
+ * Description: Program prints the sum of the
  * multiples of 3 and 5 from 0 to 1024
  * (excluded)
  * Return: Always 0 (success)
