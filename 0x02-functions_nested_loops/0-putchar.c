@@ -1,12 +1,10 @@
 #include "main.h"
+
 /**
- * main - Program entry point
- *
- * Description: This is a program that will print the message "_putchar" to the screen 
- * followed by a new line. It uses a locally defined function (_putchar) to accomplish this.
- *
- * Return: Always 0 (If successful)
+ * main - Print putchar
+ * Return: Always 0 (success)
  */
+
 int main(void)
 {
 	_putchar('_');
