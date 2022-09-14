@@ -12,7 +12,7 @@ int main(void)
 
 	num1 = 1;
 	num2 = 2;
-	boolean = boolean = 1;
+	boolean = boolean1 = 1;
 	printf("%ld, %ld", num1, num2);
 	for (k = 0; k < 96; k++)
 	{
