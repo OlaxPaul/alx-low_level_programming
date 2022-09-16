@@ -28,8 +28,9 @@ void print_triangle(int size)
 			{
 				continue;
 			}
+
 			_putchar('\n');
 		}
-		_putchar('\n');
 	}
+	_putchar('\n');
 }
