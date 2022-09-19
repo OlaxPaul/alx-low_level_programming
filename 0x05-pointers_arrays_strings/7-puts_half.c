@@ -1,26 +1,27 @@
-#include <string.h>
 #include "main.h"
 
 /**
- * puts_half - prints the last half of a string
- * @s: pointer to the string variable s
- *
- * Return: Null
+ * puts_half - prints half of string
+ * @str: string to be printed
  */
 
-void puts_half(char *s)
+void puts_half(char *str)
 {
-	int len = strlen(s), i;
+	int count = 0, i;
 
-	if (len % 2 == 0)
+	while (count >= 0)
 	{
-		for (i = len / 2; i < len; i++)
-			_putchar(s[i]);
+		if (str[count] == '\0')
+			break;
+		count++;
 	}
+
+	if (count % 2 == 1)
+		i = count / 2;
 	else
-	{
-		for (i = len / 2 + 1; i < len; i++)
-			_putchar(s[i]);
-	}
+		i = (count - 1) / 2;
+
+	for (i++; i < count; i++)
+		_putchar(str[i]);
 	_putchar('\n');
 }
