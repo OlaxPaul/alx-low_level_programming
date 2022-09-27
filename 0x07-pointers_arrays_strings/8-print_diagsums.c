@@ -3,24 +3,20 @@
 
 /**
  * print_diagsums - prints the sums of the two diagonals of a square matrix
- * @a: pointer to start of matrix
- * @size: width of matrix column
+ * @a: a pointer
+ * @size: size
  *
  * Return: void
  */
 void print_diagsums(int *a, int size)
 {
-	int i, j, p, l = 0, r = 0;
+	int i, l = 0, r = 0;
 
 	for (i = 0; i < size; i++)
 	{
-		p = (i * size) + i;
-		l += *(a + p);
+		l += *(a + (size * i + i));
+		r += *(a + (size * i + size - 1 - i));
 	}
-	for (j = 0; j < size; j++)
-	{
-		p = (j * size) + (size - l - j);
-		r += *(a + p);
-	}
-	printf("%i, %i\n", l, r);
-}
+	printf("%d, ", i);
+	printf("%d\n", r);
+}	
