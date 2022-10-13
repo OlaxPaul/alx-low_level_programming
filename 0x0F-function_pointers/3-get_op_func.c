@@ -6,7 +6,7 @@
  * function to perform the operation asked by the user.
  * @s: The operation to be used
  *
- * Return: a pointer to the functionthat corresponds
+ * Return: a pointer to the function that corresponds
  * to the operator given as a parameter
  */
 int (*get_op_func(char *s))(int, int)
@@ -25,12 +25,9 @@ int (*get_op_func(char *s))(int, int)
 
 	while (ops[i].op != NULL && ops[i].f != NULL)
 	{
-		if (ops[i].op[0] == s[0] && !s[1])
-		{
-			return (ops[i].f);
-		}
-		i++
+		if (strcmp(s, ops[i].op) == 0)
+			break;
+		i++;
 	}
-
-	return (NULL);
+	return (ops[i].f);
 }
