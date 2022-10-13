@@ -1,13 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
 #include "3-calc.h"
 
 /**
- * main - This calculates the values of two numbers
- * @argc: This is the argument count
- * @argv: This is the argument vector
+ * main - performs simple operations
+ * @argc: number of arguments passed
+ * @argv: array of pointers to arguments
  *
  * Return: 0 if successful
  */
-int main(int argc, char **argv)
+int main(int argc, char *argv[])
 {
 	int (*f)(int a, int b);
 	int a, b;
